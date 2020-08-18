@@ -1,0 +1,13 @@
+<form catchsubmit="formSubmit" catchreset="formReset">
+	<view style="margin-bottom:130rpx; ">
+		<input-view leftName='公司名称' placeholder='请输入公司名称' name='name1' />
+		<input-view leftName='联系人' placeholder='请输入联系人' name='name2' />
+		<chekout-List title='公司类型' parameter="{{parameter}}" bind:parameter="parameterTap" name='name3' />
+		<chekout-List title='主要涉及行业' parameter="{{parameter2}}" bind:parameter="parameterTap" name='name4' />
+	</view>
+	<view class="buttom-view">
+		<view>
+			<button class="submit" form-type="submit">确认</button>
+		</view>
+	</view>
+</form>
